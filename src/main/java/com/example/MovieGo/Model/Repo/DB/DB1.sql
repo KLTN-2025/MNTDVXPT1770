@@ -153,11 +153,6 @@ create table reports (
     generated_at timestamp default current_timestamp
 );
 
-insert into reports (report_type) values
-('revenue'),
-('activity'),
-('viewcount');
-
 select * from reports;
 update reports set report_type = 'activity' where report_id = 1;
 delete from reports where report_id = 3;
