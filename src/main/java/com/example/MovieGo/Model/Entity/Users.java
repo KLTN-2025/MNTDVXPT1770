@@ -1,8 +1,8 @@
 package com.example.MovieGo.Model.Entity;
 
 import java.time.LocalDateTime;
-
 import lombok.*;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -14,7 +14,17 @@ public class Users {
     private String email;
     private String password;
     private String phone;
-    private String role;
-    private String status;  
+    private Role role;
+    private Status status;  
     private LocalDateTime createdAt;
+
+     public enum Role {
+        customer,
+        staff,
+        admin
+    }
+    public enum Status {
+        active,
+        blocked
+    }
 }
