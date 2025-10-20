@@ -156,4 +156,4 @@ create table reports (
 select * from reports;
 update reports set report_type = 'activity' where report_id = 1;
 delete from reports where report_id = 3;
-.
+

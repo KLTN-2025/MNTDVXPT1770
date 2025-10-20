@@ -9,7 +9,7 @@ import lombok.*;
 @ToString
 public class Rooms {
     private int roomId;
-    private int cinemaId;
+    private Cinemas cinemaId;
     private String roomName;
     private int seatCount;
 }
