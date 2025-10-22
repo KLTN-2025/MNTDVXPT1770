@@ -12,7 +12,7 @@ import lombok.*;
 public class Bookings {
     private int bookingId;
     private Users userId;
-    private int showtimeId;
+    private Showtimes showtimeId;
     private LocalDateTime bookingDate;
     private BigDecimal totalPrice;
     private PaymentStatus paymentStatus;
