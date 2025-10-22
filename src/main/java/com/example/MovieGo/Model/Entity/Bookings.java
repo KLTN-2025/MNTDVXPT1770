@@ -11,7 +11,7 @@ import lombok.*;
 @ToString
 public class Bookings {
     private int bookingId;
-    private int userId;
+    private Users userId;
     private int showtimeId;
     private LocalDateTime bookingDate;
     private BigDecimal totalPrice;
