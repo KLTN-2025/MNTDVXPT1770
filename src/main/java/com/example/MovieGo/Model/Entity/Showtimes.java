@@ -13,7 +13,7 @@ import lombok.*;
 public class Showtimes {
     private int showtimeId;
     private Movies movieId;
-    private int roomId;
+    private Rooms roomId;
     private LocalDate showDate;
     private LocalTime startTime;
     private LocalTime endTime;
