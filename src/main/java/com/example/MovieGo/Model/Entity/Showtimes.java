@@ -12,7 +12,7 @@ import lombok.*;
 @ToString
 public class Showtimes {
     private int showtimeId;
-    private int movieId;
+    private Movies movieId;
     private int roomId;
     private LocalDate showDate;
     private LocalTime startTime;

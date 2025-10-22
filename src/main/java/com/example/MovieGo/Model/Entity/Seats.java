@@ -9,7 +9,7 @@ import lombok.*;
 @ToString
 public class Seats {
     private int seatId;
-    private int roomId;
+    private Rooms roomId;
     private String seatNumber;
     private SeatType seatType;
     private Status status;
