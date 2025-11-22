@@ -5,16 +5,16 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class BaseConnection {
-     static String url = "jdbc:mysql://localhost:3306/qlbh";
+     static String url = "jdbc:mysql://localhost:3306/moviegodb";
     static String username = "root";
-    static String password = "minhthienphan03";
+    static String password = "241003";
     static String nameClass = "com.mysql.jdbc.Driver";
 
     public static void main(String[] args) {
         // Thông tin kết nối
-        String url = "jdbc:mysql://localhost:3306/qlbh";
+        String url = "jdbc:mysql://localhost:3306/moviegodb";
         String username = "root";
-        String password = "2410";
+        String password = "241003";
         // Kết nối tới cơ sở dữ liệu
         try (Connection connection = DriverManager.getConnection(url, username, password)) {
             if (connection != null) {
